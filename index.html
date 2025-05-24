@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <script src="script.js" type="module" defer></script>
     <title>Melvino Roxas</title>
 </head>
@@ -14,15 +15,20 @@
     <nav class="navbar">
         <div class="navbar__logo"></div>
         <ul>
-            <li><button class="navbar__link navbar__link--active"><a href="">about</a></button></li>
-            <li><button class="navbar__link"><a href="">projects</a></button></li>
-            <li><button class="navbar__link"><a href="">journal</a></button></li>
+            <li><button value="about-section" class="navbar__link navbar__link--active">about</button></li>
+            <li><button value="projects-section" class="navbar__link">projects</button></li>
+            <li><button value="journals-section" class="navbar__link">journal</button></li>
         </ul>
     </nav>
     
     <main>
         <section class="about-section section section--active">
         </section>
+        
+        <section class="projects-section section section--inactive">
+        </section>
+        
+        <section class="journals-section section section--inactive"></section>
     </main>
 </body>
 </html>
