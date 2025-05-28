@@ -1,0 +1,19 @@
+.display-none {
+    display: none;
+}
+
+
+
+.modal {
+    border: 2px solid red;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1000;
+    min-width: 450px;
+    min-height: 450px;
+    border-radius: 1rem;
+}
+
+.modal--close  {
+    /* border: 2px solid red;  */
+}

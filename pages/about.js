@@ -1,5 +1,4 @@
 export default function about() {
-    console.log("YESSIR");
     document.querySelector(".about-section").innerHTML = `
         <header class="about-header">
             <p class="about-header__hero">

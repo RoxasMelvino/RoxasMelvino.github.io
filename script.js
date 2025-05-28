@@ -2,22 +2,19 @@ import aboutPage from "./pages/about.js";
 import projectsPage from "./pages/projects.js";
 import journalsPage from "./pages/journal.js";
 
-const navbar = document.querySelector(".navbar");
+aboutPage();
+projectsPage();
+journalsPage();
 
-function App() {
-    aboutPage();
-    projectsPage();
-    journalsPage();
-}
+const navbar = document.querySelector(".navbar");
+const ctaButtons = document.querySelector(".about-header-CTAs");
 
 function openPage(section) {
-    console.log("opening page...");
     
     //we need to check if a page is already active
     // if it is active, remove the section--active class and add section--inactive class, which sets the style to display none ;
-    console.log(section);
+    // console.log(section);
     document.querySelectorAll("section").forEach(elem => {
-        
         if (elem.classList.contains(`${section}`)) {
             elem.classList.add("section--active");
             elem.classList.remove("section--inactive");
@@ -27,13 +24,9 @@ function openPage(section) {
         }
     })
     
-    
-    
-    
 }
 
 function openLink(e) {
-    
     if (e.target.classList.contains("navbar__link")) {
         // remove the styling for links that were already active
         document.querySelectorAll(".navbar__link").forEach((elem) => elem.classList.remove('navbar__link--active'));
@@ -44,8 +37,8 @@ function openLink(e) {
     
 }
 
-navbar.addEventListener('click', openLink)
-
-App()
+navbar.addEventListener('click', openLink);
 
 
+
+console.log(ctaButtons);

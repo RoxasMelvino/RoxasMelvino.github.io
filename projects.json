@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "category_name": "CMS",
+        "category_items": [
+            {
+               "project_num": 1,
+               "name": "Verdance",
+               "link": "https://melvinoroxasbvt202.wixsite.com/mysite" 
+            },
+            {
+                "project_num": 2,
+                "name": "Portfolio (WordPress)",
+                "link": "https://melvinosportfolio.wordpress.com/"
+            }
+        ] 
+    },
+    {
+        "id": 2,
+        "category_name": "HTML-CSS-JAVASCRIPT",
+        "category_items": [
+            {
+               "project_num": 1,
+               "name": "Login UI",
+               "link": "https://github.com/RoxasMelvino/melvino-roxas-login-ui-project" 
+            },
+            {
+                "project_num": 2,
+                "name": "Email Template",
+                "link": "https://github.com/RoxasMelvino/email-template-roxas"
+            }
+        ] 
+    }
+]
