@@ -1,13 +1,13 @@
-import renderProjects from "../scripts/portfolio.js";
+import renderProjects from "../scripts/portfolio/renderProjects.js";
 
 export default function projects() {
     document.querySelector(".projects-section").innerHTML = `
-        <header><h1>Projects</h1></header>
-        <hr>
+        <header class="projects-header">Projects</header>
+        <hr class="divider">
         <article class="main__categories">
             <!-- <button class="main_categories-category"></button> -->
         </article>
-        <article class="category display-none">
+        <article class="categories display-none">
             <button class="close-category-btn">X</button>
             <!-- <button class="category__item"></button> -->
         </article>

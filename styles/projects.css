@@ -1,4 +1,6 @@
 .projects-section {
+    /* border: 2px solid red;  */
+    height: 80vh; 
     display: flex;
     flex-direction: column;    
     align-items: center;   
@@ -22,5 +24,29 @@
 
 .modal--close  {
     /* border: 2px solid red;  */
+}
+
+.projects-header {
+    font-size: 65px; 
+    letter-spacing: 16px;
+}
+
+.divider {
+    width: 10%; 
+    max-width: 200px; 
+    border-color: #E9A752;
+    margin: 30px;
+}
+
+.main__categories {
+    border: 2px solid red; 
+    width: 800px;
+    height: 800px
+}
+
+.main__categories-category {
+    margin: 20px;
+    width: 150px; 
+    height: 150px; 
 }
 

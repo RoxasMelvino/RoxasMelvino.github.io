@@ -4,7 +4,7 @@ import {  openCategory, closeCategory } from "./categoryNav.js";
 
 export default function renderProjects() {
     const categoriesContainer = document.querySelector("article.main__categories");
-    const categoryItemsContainer = document.querySelector("article.category");
+    const categoryItemsContainer = document.querySelector("article.categories");
     const closeCategoryBtn = document.querySelector("button.close-category-btn");
     const modal = document.querySelector("div.modal");
     
