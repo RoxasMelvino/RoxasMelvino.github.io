@@ -1,4 +1,4 @@
-import projects from "../projects.json" with { type: "json" };
+import projects from "../../projects.json" with { type: "json" };
 import createCategoryItems from "./createCategoryItems.js";
 import {  openCategory, closeCategory } from "./categoryNav.js";
 

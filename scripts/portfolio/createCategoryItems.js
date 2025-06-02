@@ -1,4 +1,4 @@
-import {openCategoryItem} from "./handleModal.js";
+import { openCategoryItem } from "./handleModal.js";
 
 export default function createCategoryItems(categoryItems, categoryName, categoryItemsContainer, modal) {
     console.log(categoryItems, categoryName);
