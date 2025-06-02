@@ -99,7 +99,7 @@ button:hover {
 }
 
 .section--inactive {
-    display: none;
+    display: none !important;
 }
 
 
