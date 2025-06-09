@@ -15,7 +15,7 @@ export function openCategoryItem(projectObj, modal) {
     exitBtn.classList.add('modal--close');
     exitBtn.textContent = "x";
     exitBtn.addEventListener('click', () => closeCategoryItem(modal));
-    
+
     const projectName = document.createElement("header");
     projectName.classList.add("modal__proj-name");
     projectName.textContent = `${projectObj.name}`
@@ -24,5 +24,6 @@ export function openCategoryItem(projectObj, modal) {
     link.textContent = "Link to project";
     link.href = `${projectObj.link}`;
     
-    modal.append(exitBtn, projectName, link)
+    modal.append(exitBtn, projectName, link);
+    // document.querySelector("section.projects-section").classList.add("blur-background"); add blur later. some how this thing won't blur
 }

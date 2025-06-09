@@ -12,6 +12,7 @@ export function openCategory(categoriesContainer, categoryItemsContainer, catego
             item.style.display = "none";
         } else {
             item.style.display = "block";
+            document.querySelector(".projects-header").textContent = categoryName; // change the header to the category name;
         }
     })
 }
@@ -21,4 +22,5 @@ export function closeCategory(categoriesContainer, categoryItemsContainer) {
     
     categoryItemsContainer.classList.add("display-none");
     categoriesContainer.classList.remove("display-none");
+    document.querySelector(".projects-header").textContent = "PROJECTS";
 }
