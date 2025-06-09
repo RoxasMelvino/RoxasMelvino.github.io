@@ -102,4 +102,8 @@ button:hover {
     display: none !important;
 }
 
+.blur-background {
+    backdrop-filter: blur(5px);
+}
+
 
