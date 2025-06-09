@@ -1,12 +1,15 @@
 import projects from "../../projects.json" with { type: "json" };
 import createCategoryItems from "./createCategoryItems.js";
-import {  openCategory, closeCategory } from "./categoryNav.js";
+import { openCategory, closeCategory } from "./categoryNav.js";
+import { closeCategoryItem } from "./handleModal.js";
 
 export default function renderProjects() {
     const categoriesContainer = document.querySelector("article.main__categories");
     const categoryItemsContainer = document.querySelector("article.categories");
     const closeCategoryBtn = document.querySelector("button.close-category-btn");
-    const modal = document.querySelector("div.modal");
+    const modal = document.querySelector("div.modal-content");
+    
+    // console.log(modal);
     
     // Display categories, and add event listeners
     projects.forEach((elem, i) => {
@@ -24,4 +27,5 @@ export default function renderProjects() {
 
 
     closeCategoryBtn.addEventListener("click", () => closeCategory(categoriesContainer, categoryItemsContainer));
+    document.querySelector(".modal--close").addEventListener("click", () => closeCategoryItem(modal)); 
 }
