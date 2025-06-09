@@ -8,14 +8,15 @@ export default function projects() {
             <!-- <button class="main_categories-category"></button> -->
         </article>
         <article class="categories display-none">
-            <button class="close-category-btn">X</button>
+            <button class="close-category-btn"><i class="fa-solid fa-chevron-left"></i></button>
             <!-- <button class="category__item"></button> -->
         </article>
         
         <div class="modal display-none">
             <button class="modal--close">X</button>
-            <!-- <header><h2 class="modal__proj-name"></h2></header>
-            <a href="" > <p>Go to project</p> </a> -->
+            <div class="modal-content">
+                <!-- items are appended here from handleModal.js -->
+            </div>
         </div>    
     `;
     
