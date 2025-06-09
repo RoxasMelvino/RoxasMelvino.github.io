@@ -12,7 +12,6 @@
     z-index: 1000;
     /* display: flex; */
     color: #000;
-    border: 2px solid red;
     background-color: #ffffff;
     position: fixed;
     min-width: 450px;
@@ -40,7 +39,7 @@
 }
 
 .main__categories, .categories {
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     width: 800px;
     height: 800px;
     display: flex; 
