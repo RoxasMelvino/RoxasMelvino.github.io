@@ -32,11 +32,9 @@ button:hover {
 
 
 .navbar {
-    /* border: 2px solid red;  */
-    width: 100%;
+    /* border: 2px solid blue;  */
+    width: 100vw;
     padding: 1rem;
-    display: flex; 
-    align-items: center;
     background-color: #000;
     justify-content: space-between;
     font-weight: 300;
@@ -64,10 +62,19 @@ button:hover {
 
 .navbar ul {
     /* border: 2px solid red;  */
+    width: 100%;
     list-style-type: none;
-    width: 50%;
     display: flex; 
     justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li:first-child {
+    margin-right: auto;
+}
+
+.navbar li:last-child {
+    margin-right: 3rem;
 }
 
 .navbar__link {
@@ -93,7 +100,6 @@ button:hover {
     /* border: 2px solid red;  */
     color: #fff;
     width: 100vw;
-    
     margin-top: 3rem;
 }
 
