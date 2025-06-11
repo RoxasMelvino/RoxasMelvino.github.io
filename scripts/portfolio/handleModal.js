@@ -11,14 +11,13 @@ export function openCategoryItem(projectObj, modal) {
     modal.innerHTML = ''; // clear the container
     modal.parentElement.classList.remove("display-none"); // the parent element has this class, so it must be removed. See projects.js
     
-    
-
     const projectName = document.createElement("header");
-    projectName.classList.add("modal__proj-name");
+    projectName.classList.add("modal-content__header");
     projectName.textContent = `${projectObj.name}`
     
     const link = document.createElement("a");
-    link.textContent = "Link to project";
+    link.style.backgroundImage = `url("../../images/${projectObj.image}")`;
+    link.classList.add("modal-content__link");
     link.href = `${projectObj.link}`;
     
     modal.append(projectName, link);
