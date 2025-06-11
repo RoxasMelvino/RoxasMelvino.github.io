@@ -15,8 +15,10 @@ export function openCategoryItem(projectObj, modal) {
     projectName.classList.add("modal-content__header");
     projectName.textContent = `${projectObj.name}`
     
+    console.log(projectObj.image);
+    
     const link = document.createElement("a");
-    link.style.backgroundImage = `url("../../images/${projectObj.image}")`;
+    link.style.backgroundImage = `url("https://raw.githubusercontent.com/RoxasMelvino/RoxasMelvino.github.io/refs/heads/main/images/${projectObj.image}")`;
     link.classList.add("modal-content__link");
     link.href = `${projectObj.link}`;
     

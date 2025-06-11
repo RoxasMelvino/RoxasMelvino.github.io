@@ -9,14 +9,14 @@ projectsPage();
 journalsPage();
 
 const navbar = document.querySelector(".navbar");
-const ctaButtons = document.querySelector(".about-header-CTAs");
+const ctaButtons = document.querySelector(".home-header-CTAs");
 
 function openPage(section) {
     
     //we need to check if a page is already active
     // if it is active, remove the section--active class and add section--inactive class, which sets the style to display none ;
     document.querySelectorAll("section").forEach(elem => {
-        console.log(elem, section);
+        // console.log(elem, section);
         if (elem.classList.contains(`${section}`)) {
             elem.classList.add("section--active");
             elem.classList.remove("section--inactive");
@@ -43,7 +43,7 @@ function openLink(e) {
 }
 
 navbar.addEventListener('click', openLink);
+// console.log(ctaButtons);
 
 
 
-console.log(ctaButtons);
