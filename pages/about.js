@@ -2,15 +2,15 @@ export default function about() {
     document.querySelector(".about-section").innerHTML = `
         <header class="about-header">
             <p class="about-header__hero">
-                <span class="welcome">Welcome.</span>
-                <span class="existance" >I am</span> 
+                <!-- <span class="welcome">Welcome.</span> -->
+                <!-- <span class="existance" >I am</span> -->   
                 <span class="name">Melvino Roxas</span>
                 
             </p>
             <div class="about-header-CTAs">
                 <button class="about-header__CTA1">See my work</button>
                 <button class="about-header__CTA2">Contact me</button>
-            </div>
+            </div>  
         </header>
                 
         <div class="about-info">
