@@ -6,12 +6,14 @@
             {
                "project_num": 1,
                "name": "Verdance",
-               "link": "https://melvinoroxasbvt202.wixsite.com/mysite" 
+               "link": "https://melvinoroxasbvt202.wixsite.com/mysite",
+               "image": "verdance.png"
             },
             {
                 "project_num": 2,
                 "name": "Portfolio (WordPress)",
-                "link": "https://melvinosportfolio.wordpress.com/"
+                "link": "https://melvinosportfolio.wordpress.com/",
+                "image": "portfolioWP.png"
             }
         ] 
     },
@@ -22,12 +24,14 @@
             {
                "project_num": 1,
                "name": "Login UI",
-               "link": "https://github.com/RoxasMelvino/melvino-roxas-login-ui-project" 
+               "link": "https://github.com/RoxasMelvino/melvino-roxas-login-ui-project",
+               "image": "login-ui.png"
             },
             {
                 "project_num": 2,
-                "name": "Email Template",
-                "link": "https://github.com/RoxasMelvino/email-template-roxas"
+                "name": "Reach - Email Template",
+                "link": "https://github.com/RoxasMelvino/email-template-roxas",
+                "image": "reach.png"
             }
         ] 
     }

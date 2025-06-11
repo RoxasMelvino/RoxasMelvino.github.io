@@ -17,17 +17,17 @@
     font-weight: 200;
 }
 
-.about-header__hero .welcome {
+/* .about-header__hero .welcome {
     font-size: 65px;
     font-weight: 100;
     letter-spacing: 3.5px;
     margin-bottom: 5px;
-}
+} */
 
-.about-header__hero .existance {
+/* .about-header__hero .existance {
     font-size: 30px;
     font-weight: 300;
-}
+} */
 
 .about-header__hero .name {
     font-size: 90px;

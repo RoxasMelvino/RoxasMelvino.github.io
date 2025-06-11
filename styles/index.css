@@ -43,8 +43,8 @@ button:hover {
     font-size: 1.25rem;
     color: #fff;
     cursor: pointer;
-    /* position: fixed;
-    top: 0;  */
+    position: sticky;
+    top: 0;
 }
 
 .navbar__logo {
@@ -55,7 +55,10 @@ button:hover {
     margin-left: 2rem;
     border-radius: 100%;
     background-color: #fff;
-    /* background-image: url("images/roxas-logo.png"); */
+    background-image: url("../images/roxas-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /* background-image: url("https://roxasmelvino.github.io/images/roxas-logo.png"); */
 }
 
@@ -72,13 +75,13 @@ button:hover {
     font-size: 1.25rem;
     background-color: #000;
     color: #fff;
-    cursor: pointer;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 1rem;
     margin: 5px;
+    cursor: pointer;    
 }
 
 .navbar__link--active {
@@ -90,8 +93,8 @@ button:hover {
     /* border: 2px solid red;  */
     color: #fff;
     width: 100vw;
+    
     margin-top: 3rem;
-    /* height: 100vh; */
 }
 
 .section--active {
