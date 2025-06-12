@@ -60,6 +60,11 @@
 .projects-header {
     font-size: 65px; 
     letter-spacing: 16px;
+    font-weight: bold;
+}
+
+.projects-desc {
+    color: #bfbfbf;
 }
 
 .divider {
@@ -69,29 +74,109 @@
     margin: 30px;
 }
 
-.main__categories, .categories {
+.main__categories, .category-items {
     /* border: 2px solid red;  */
-    width: 800px;
+    width: 95vw;
     height: 800px;
-    display: flex; 
-    /* justify-content: center; */
-    flex-wrap: wrap;
+    display: flex;
 }
 
-.main__categories-category, .category__item {
-    margin: 20px;
-    width: 200px; 
-    height: 200px; 
+.main__categories {
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-items {
+}
+
+.main__categories-category {
+    display: flex; 
+    justify-content: space-between;
+    margin: 10px;
+    width: 75%; 
+    height: 300px; 
     font-family: inherit;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    background-color: #1A1A1A;
     color: #fff;
+    padding: 1rem;
+}
+
+.main__categories-category .cta-block {
+    background-color: #1A1A1A;
+    width: 85%;
+    padding-left: 2rem; 
+    border-radius: 16px 0px 0px 16px;
+}
+
+.main__categories-category h2 {
+    margin-bottom: 0; 
+}
+
+.main__categories-category p {
+    font-size: 1rem;
+    margin-top: 3px;
+    width: 75%;
+    color: #BFBFBF;
+}
+
+.main__categories-category button {
+    font-family: inherit;
+    border-radius: 100px;
+    background-color: #E9A752;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.main__categories-category .category-image {
+    height: 100%;
+    width: 45%; 
+    border-radius: 0px 16px 16px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.category-item {
+    display: flex; 
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    margin: 1rem; 
+    font-family: inherit;
+    padding: 0; 
+    color: #fff;
+    background-color: #1A1A1A;
+    border-radius: 1rem;
+}
+
+.category-item__image {
+    /* border: 2px solid red;  */
+    width: 400px;
+    height: 275px; 
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px 16px 0 0;
+}
+
+.category-item__btn {
+    font-family: inherit;
+    background-color: #E9A752;
+    color: #fff;
+}
+
+.category-item__info {
+    /* border: 2px solid red; */
+    margin: 0; 
+    padding: 1rem; 
 }
 
 .close-category-btn {
     background: none;
     color: #fff;
+
 }
 
 .display-none {

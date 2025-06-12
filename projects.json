@@ -3,31 +3,36 @@
         "id": 1,
         "name" : "Web Designs",
         "description":  "Various designs made with HTML, CSS, and Content Management Systems",
+        "category_image" : "https://raw.githubusercontent.com/RoxasMelvino/RoxasMelvino.github.io/refs/heads/main/images/verdance.png",
         "category_name": "Designs",
         "category_items": [
             {
                "project_num": 1,
                "name": "Verdance",
                "link": "https://melvinoroxasbvt202.wixsite.com/mysite",
-               "image": "verdance.png"
+               "image": "verdance.png",
+               "description": "Lovely description"
             },
             {
                 "project_num": 2,
                 "name": "Portfolio (WordPress)",
                 "link": "https://melvinosportfolio.wordpress.com/",
-                "image": "portfolioWP.png"
+                "image": "portfolioWP.png",
+                "description": "Lovely description"
             },
             {
                "project_num": 1,
                "name": "Login UI",
                "link": "https://github.com/RoxasMelvino/melvino-roxas-login-ui-project",
-               "image": "login-ui.png"
+               "image": "login-ui.png",
+               "description": "Lovely description"
             },
             {
                 "project_num": 2,
                 "name": "Reach - Email Template",
                 "link": "https://github.com/RoxasMelvino/email-template-roxas",
-                "image": "reach.png"
+                "image": "reach.png",
+                "description": "Lovely description"
             }
         ] 
     },
@@ -35,19 +40,22 @@
         "id": 2,
         "name" : "HTML CSS JS",
         "description":  "Projects made with vanilla HTML, CSS, and JS",
+        "category_image" : "https://raw.githubusercontent.com/RoxasMelvino/RoxasMelvino.github.io/refs/heads/main/images/login-ui.png",
         "category_name": "HTML-CSS-JAVASCRIPT",
         "category_items": [
             {
                "project_num": 1,
                "name": "Example 1",
                "link": "",
-               "image": ""
+               "image": "",
+               "description": "Lovely description"
             },
             {
                 "project_num": 2,
                 "name": "Example 2",
                 "link": "",
-                "image": ""
+                "image": "",
+                "description": "Lovely description"
             }
         ] 
     }

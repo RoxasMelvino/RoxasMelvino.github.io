@@ -7,7 +7,7 @@ export function openCategory(categoriesContainer, categoryItemsContainer, catego
     categoryItemsContainer.classList.remove("display-none");
     
     // match the class name to display the correct items 
-    document.querySelectorAll("button.category__item").forEach((item) => {
+    document.querySelectorAll(".category-item").forEach((item) => {
         if (!item.classList.contains(categoryName)) {
             item.style.display = "none";
         } else {
