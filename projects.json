@@ -1,7 +1,9 @@
 [
     {
         "id": 1,
-        "category_name": "CMS",
+        "name" : "Web Designs",
+        "description":  "Various designs made with HTML, CSS, and Content Management Systems",
+        "category_name": "Designs",
         "category_items": [
             {
                "project_num": 1,
@@ -14,13 +16,7 @@
                 "name": "Portfolio (WordPress)",
                 "link": "https://melvinosportfolio.wordpress.com/",
                 "image": "portfolioWP.png"
-            }
-        ] 
-    },
-    {
-        "id": 2,
-        "category_name": "HTML-CSS-JAVASCRIPT",
-        "category_items": [
+            },
             {
                "project_num": 1,
                "name": "Login UI",
@@ -32,6 +28,26 @@
                 "name": "Reach - Email Template",
                 "link": "https://github.com/RoxasMelvino/email-template-roxas",
                 "image": "reach.png"
+            }
+        ] 
+    },
+    {
+        "id": 2,
+        "name" : "HTML CSS JS",
+        "description":  "Projects made with vanilla HTML, CSS, and JS",
+        "category_name": "HTML-CSS-JAVASCRIPT",
+        "category_items": [
+            {
+               "project_num": 1,
+               "name": "Example 1",
+               "link": "",
+               "image": ""
+            },
+            {
+                "project_num": 2,
+                "name": "Example 2",
+                "link": "",
+                "image": ""
             }
         ] 
     }
