@@ -52,7 +52,7 @@
 .modal--close  {
     /* border: 2px solid red;  */
     position: fixed;
-    color: #fff;
+    color: #D44720;
     background: none; 
     font-size: 1.15rem;
 }
@@ -71,7 +71,7 @@
     width: 10%; 
     max-width: 200px; 
     border-color: #E9A752;
-    margin: 30px;
+    margin: 15px;
 }
 
 .main__categories, .category-items {
@@ -176,8 +176,8 @@
 
 .close-category-btn {
     background: none;
-    color: #fff;
-
+    color: #D44720;
+    /* border: 1px solid #D44720; */
 }
 
 .display-none {

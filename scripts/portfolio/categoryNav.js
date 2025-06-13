@@ -6,6 +6,9 @@ export function openCategory(categoriesContainer, categoryItemsContainer, catego
     // remove the display none so we can see the category items
     categoryItemsContainer.classList.remove("display-none");
     
+    // remove the display none on the "back" button 
+    document.querySelector(".close-category-btn").classList.remove("display-none");
+    
     // match the class name to display the correct items 
     document.querySelectorAll(".category-item").forEach((item) => {
         if (!item.classList.contains(categoryName)) {
@@ -22,5 +25,6 @@ export function closeCategory(categoriesContainer, categoryItemsContainer) {
     
     categoryItemsContainer.classList.add("display-none");
     categoriesContainer.classList.remove("display-none");
+    document.querySelector(".close-category-btn").classList.add("display-none");
     document.querySelector(".projects-header").textContent = "PROJECTS";
 }
