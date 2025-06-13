@@ -11,28 +11,35 @@
                "name": "Verdance",
                "link": "https://melvinoroxasbvt202.wixsite.com/mysite",
                "image": "verdance.png",
-               "description": "Lovely description"
+               "description": "A fictional business that aims to sell natural, eco-friendly candles."
             },
             {
                 "project_num": 2,
-                "name": "Portfolio (WordPress)",
+                "name": "Portfolio",
                 "link": "https://melvinosportfolio.wordpress.com/",
                 "image": "portfolioWP.png",
-                "description": "Lovely description"
+                "description": "My old portfolio made with WordPress. A clean design with simple colors and easy navigation."
             },
             {
-               "project_num": 1,
+               "project_num": 3,
                "name": "Login UI",
                "link": "https://github.com/RoxasMelvino/melvino-roxas-login-ui-project",
                "image": "login-ui.png",
-               "description": "Lovely description"
+               "description": "A sleek UI design for those who are looking to get in shape! Made with pure HTML and CSS."
             },
             {
-                "project_num": 2,
-                "name": "Reach - Email Template",
+                "project_num": 4,
+                "name": "Reach",
                 "link": "https://github.com/RoxasMelvino/email-template-roxas",
                 "image": "reach.png",
-                "description": "Lovely description"
+                "description": "A polished, simple, and easy-on-the-eye email design made with good ol' Bootstrap."
+            },
+            {
+                "project_num": 5,
+                "name": "Vest",
+                "link": "https://investwithvest.wordpress.com/",
+                "image": "vest.png",
+                "description": "A fictional landing page advertising a revolutionary piece of software that enhances your investing game."
             }
         ] 
     },
